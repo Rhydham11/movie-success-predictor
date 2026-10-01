@@ -25,7 +25,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 st.set_page_config(page_title="Movie Success Predictor", page_icon="🎬", layout="wide")
 
-DATA_PATH = Path(__file__).parent / "data" / "movie_metadata.xlsx"
+DATA_PATH = Path(__file__).parent / "movie_metadata.xlsx"
 RANDOM_STATE = 42
 CLASS_ORDER = ["Flop", "Average", "Hit"]
 
